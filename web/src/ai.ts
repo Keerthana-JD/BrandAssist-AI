@@ -1,4 +1,8 @@
-import { pipeline } from '@huggingface/transformers';
+import { pipeline, env } from '@huggingface/transformers';
+
+env.allowRemoteModels = false;
+env.allowLocalModels = true;
+env.localModelPath = import.meta.env.BASE_URL + 'models/';
 
 export interface KbEntry { id: number; intent: string; title: string; answer: string; vec: number[]; }
 interface ModelJson { classes: string[]; vocab: Record<string, number>; idf: number[]; coef: number[][]; intercept: number[]; }

@@ -1,3 +1,4 @@
 ai/venv/
 node_modules/
 __pycache__/
+web/dist/
