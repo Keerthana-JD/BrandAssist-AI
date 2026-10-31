@@ -1,0 +1,58 @@
+[
+ {
+  "query": "i want my money back",
+  "intent": "refund",
+  "confidence": 0.947,
+  "top_title": "Money back for a cancelled order",
+  "top_score": 0.53
+ },
+ {
+  "query": "where is my parcel",
+  "intent": "delivery",
+  "confidence": 0.43,
+  "top_title": "Track my parcel",
+  "top_score": 0.604
+ },
+ {
+  "query": "my card was charged twice",
+  "intent": "account",
+  "confidence": 0.295,
+  "top_title": "Charged twice",
+  "top_score": 0.62
+ },
+ {
+  "query": "i forgot my password",
+  "intent": "account",
+  "confidence": 0.758,
+  "top_title": "Password reset",
+  "top_score": 0.63
+ },
+ {
+  "query": "can i cancel my order",
+  "intent": "order",
+  "confidence": 0.759,
+  "top_title": "Order cancellation",
+  "top_score": 0.722
+ },
+ {
+  "query": "do you sell shoes",
+  "intent": "account",
+  "confidence": 0.252,
+  "top_title": "Item out of stock",
+  "top_score": 0.247
+ },
+ {
+  "query": "which ways can i pay",
+  "intent": "order",
+  "confidence": 0.259,
+  "top_title": "Payment options",
+  "top_score": 0.615
+ },
+ {
+  "query": "do you offer gift wrapping",
+  "intent": "delivery",
+  "confidence": 0.445,
+  "top_title": "Non-refundable items",
+  "top_score": 0.417
+ }
+]
