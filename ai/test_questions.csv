@@ -1,0 +1,47 @@
+question,expected,expected_intent,expected_title
+can i send back something i bought last week,ANSWER,refund,Refund eligibility
+how many days until the refund shows in my bank,ANSWER,refund,Refund timeline
+can i return a gift card,ANSWER,refund,Non-refundable items
+the product arrived broken what do i do,ANSWER,refund,Damaged item refund
+who pays for sending the item back,ANSWER,refund,Return shipping cost
+how do i see if my return was processed,ANSWER,refund,Refund status
+how many days will delivery take,ANSWER,delivery,Standard delivery time
+i need my order urgently is fast shipping available,ANSWER,delivery,Express delivery
+my package is very late,ANSWER,delivery,Delayed delivery
+is there a delivery fee,ANSWER,delivery,Shipping charges
+i typed the wrong address can i fix it,ANSWER,delivery,Change delivery address
+tracking says delivered but i got nothing,ANSWER,delivery,Package shown as delivered but not received
+do you ship outside india,ANSWER,delivery,International shipping
+i want to cancel what i just ordered,ANSWER,order,Order cancellation
+how can i follow my shipment,ANSWER,order,Order tracking
+it has already shipped can i still cancel,ANSWER,order,Cancel after dispatch
+i picked the wrong size can you swap it,ANSWER,order,Change items in an order
+i did not get an email after ordering,ANSWER,order,Order confirmation email
+the item i ordered is no longer available,ANSWER,order,Item out of stock
+which ways can i pay,ANSWER,payment,Accepted payment methods
+money left my account but the order did not go through,ANSWER,payment,Failed payment
+i see two deductions for one purchase,ANSWER,payment,Charged twice
+where can i download my bill,ANSWER,payment,Invoice
+can i pay when the parcel arrives,ANSWER,payment,Cash on delivery
+do you offer monthly installments,ANSWER,payment,EMI option
+can i use two coupon codes together,ANSWER,payment,Promo codes
+how do i reset my login password,ANSWER,account,Password reset
+i want to update my phone number,ANSWER,account,Change email or phone
+how can i close my account permanently,ANSWER,account,Delete account
+my account got blocked after wrong passwords,ANSWER,account,Account locked
+how do i sign up,ANSWER,account,Create an account
+where do i edit my saved addresses,ANSWER,account,Update saved address
+do you sell shoes,ESCALATE,,
+can i get a student discount,ESCALATE,,
+do you offer gift wrapping,ESCALATE,,
+do you have a physical store,ESCALATE,,
+what is the weather today,ESCALATE,,
+what is the capital of france,ESCALATE,,
+can you recommend a good laptop,ESCALATE,,
+do you have a mobile app,ESCALATE,,
+do you offer a warranty on electronics,ESCALATE,,
+can i buy in bulk for my company,ESCALATE,,
+do you have a loyalty rewards program,ESCALATE,,
+i will take legal action if this is not fixed,ESCALATE,,
+this is a scam and i am calling the police,ESCALATE,,
+i want to file a complaint against your delivery person,ESCALATE,,
